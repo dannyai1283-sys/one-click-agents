@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Optimized Pre-configuration for One-Click Agents"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google-antigravity/gemini-3-flash",
+        "fallbacks": [
+          "google-antigravity/gemini-3-pro",
+          "kimi-coding/k2p5",
+          "google-antigravity/claude-opus-4-6-thinking"
+        ]
+      },
+      "workspace": "./",
+      "rotation": {
+        "enabled": true,
+        "accounts": ["ultra-1", "ultra-2", "pro-1"],
+        "threshold": 50
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "ENV:TELEGRAM_BOT_TOKEN"
+    }
+  }
+}
