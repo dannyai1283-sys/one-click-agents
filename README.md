@@ -8,8 +8,10 @@ This isn't just a static project. It is an **Open-Source Community Hub**.
 - **This Repo** provides the "engine" and a growing library of community-contributed templates.
 
 ## 🚀 One-Click Setup
-1.  **Clone this repo:** `git clone https://github.com/your-username/one-click-agents.git`
-2.  **Run the installer:** `bash setup.sh`
+1.  **Clone this repo:** 
+    `git clone https://github.com/dannyai1283-sys/one-click-agents.git`
+2.  **Run the installer:** 
+    `bash setup.sh`
 3.  **Add your keys:** Paste your Antigravity API Key in `.env`.
 4.  **Start Chatting:** Talk to your bot on Telegram/Discord.
 
@@ -25,6 +27,8 @@ We invite all readers to contribute!
 - Created a specialized agent for teachers or students?
 
 **Contribute your templates and get featured in the book's next edition!** See `CONTRIBUTING.md` for details.
+
+Find us at: `https://github.com/dannyai1283-sys/one-click-agents`
 
 ---
 *Created by Danny Ho & The AI Architect Community.*
