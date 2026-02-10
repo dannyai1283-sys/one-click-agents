@@ -1,0 +1,29 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google-antigravity/gemini-3-flash",
+        "fallbacks": [
+          "kimi-coding/k2p5",
+          "google/gemini-2.0-flash"
+        ]
+      },
+      "workspace": "./"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "antigravity:default": {
+        "provider": "google-antigravity",
+        "mode": "api_key",
+        "apiKey": "YOUR_API_KEY_HERE"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "YOUR_BOT_TOKEN_HERE"
+    }
+  }
+}
