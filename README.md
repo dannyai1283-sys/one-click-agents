@@ -1,35 +1,75 @@
-# AI Agents: The One-Click Blueprint (Powered by OpenClaw)
+# OpenClaw One-Click Setup Templates
 
-This is a **Zero-Friction** repository designed to get your personal AI Agent up and running in under 5 minutes. This project is the official companion to the book **"AI Agents: The One-Click Blueprint"** by Danny Ho.
+A collection of production-ready templates for OpenClaw one-click setup, derived from analyzing 2,999+ community skills.
 
-## 🌟 The "Living Repository" Strategy
-This isn't just a static project. It is an **Open-Source Community Hub**. 
-- **The Book** provides the foundation and the "how-to".
-- **This Repo** provides the "engine" and a growing library of community-contributed templates.
+## Template Categories
 
-## 🚀 One-Click Setup
-1.  **Clone this repo:** 
-    `git clone https://github.com/dannyai1283-sys/one-click-agents.git`
-2.  **Run the installer:** 
-    `bash setup.sh`
-3.  **Add your keys:** Paste your Antigravity API Key in `.env`.
-4.  **Start Chatting:** Talk to your bot on Telegram/Discord.
+| Template | Description | Use Case |
+|----------|-------------|----------|
+| `docker-dev-environment/` | Docker sandbox templates | Isolated dev environments |
+| `git-workflow/` | Advanced git automation | PR automation, branch management |
+| `multi-agent-orchestration/` | Agent swarm templates | Multi-agent task coordination |
+| `web-scraping-automation/` | Browser automation templates | Data extraction, monitoring |
+| `productivity-system/` | Task/time tracking templates | Personal productivity automation |
+| `ci-cd-pipeline/` | Deployment automation | Build, test, deploy workflows |
+| `code-review-automation/` | PR review templates | Automated code review assistance |
+| `monitoring-healthcheck/` | System monitoring templates | Health checks, alerting |
 
-## 🛠️ Project Structure
-- `config/`: Pre-optimized configurations with smart fallbacks.
-- `templates/`: Professional prompts for Writing, Coding, and Research.
-  - **Core 10 Library**: Includes **Crypto Sentinel**, **PMBOK Master**, and **Viral Shorts Gen**.
-- `community_templates/`: 👈 **Submit yours here!** This is where our readers share their best agent configurations.
+## Quick Start
 
-## 🤝 Join the Movement
-We invite all readers to contribute!
-- Have a prompt that writes better emails?
-- Built a configuration for an automated legal assistant?
-- Created a specialized agent for teachers or students?
+```bash
+# Navigate to desired template
+cd docker-dev-environment/
 
-**Contribute your templates and get featured in the book's next edition!** See `CONTRIBUTING.md` for details.
+# Read the SKILL.md for setup instructions
+cat SKILL.md
 
-Find us at: `https://github.com/dannyai1283-sys/one-click-agents`
+# Run the setup script
+./setup.sh
+```
 
----
-*Created by Danny Ho & The AI Architect Community.*
+## Template Structure
+
+Each template includes:
+- `README.md` - Overview and getting started guide
+- `SKILL.md` - Agent skill following OpenClaw conventions
+- `setup.sh` / `setup.py` - Automated setup scripts
+- `examples/` - Example configurations and use cases
+- `.env.example` - Environment variable templates
+
+## Key Insights from Awesome-Skills Analysis
+
+### High-Value Patterns
+1. **Workflow Integration**: Skills that integrate multiple tools (gh + git + Docker)
+2. **Safety First**: Sandboxing and isolation for untrusted operations
+3. **Progressive Disclosure**: Basic commands → Advanced workflows
+4. **Error Recovery**: Clear troubleshooting and rollback procedures
+
+### Common Requirements
+- Binary dependencies (docker, git, gh, npm, etc.)
+- Environment variables for API keys
+- OS-specific considerations (Linux/macOS/Windows)
+- Network access controls
+
+### Metadata Standards
+```yaml
+metadata:
+  clawdbot:
+    emoji: "🐳"
+    requires:
+      bins: ["docker", "git"]
+      env: ["GITHUB_TOKEN", "DOCKER_REGISTRY"]
+    os: ["linux", "darwin", "win32"]
+```
+
+## Contributing
+
+When creating new templates:
+1. Follow the SKILL.md format from existing templates
+2. Include practical examples, not just documentation
+3. Add error handling and security considerations
+4. Test on multiple platforms when possible
+
+## License
+
+MIT - See individual template directories for specific licensing.
