@@ -1,0 +1,6 @@
+{
+  "logs": [
+    { "date": "2026-02-10", "sleep_score": 85, "steps": 12000, "diet": "Keto" },
+    { "date": "2026-02-11", "sleep_score": 60, "steps": 5000, "diet": "Fast Food" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Crypto Sentinel",
+  "version": "1.0.0",
+  "description": "Real-time price alerts and market sentiment analysis.",
+  "triggers": [
+    { "type": "price_change", "threshold": 5.0, "asset": "BTC" },
+    { "type": "sentiment_swing", "threshold": "bearish", "source": "X" }
+  ],
+  "actions": [
+    { "type": "alert", "channel": "telegram" },
+    { "type": "log", "target": "google_sheets" }
+  ]
+}

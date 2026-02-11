@@ -18,6 +18,7 @@ This isn't just a static project. It is an **Open-Source Community Hub**.
 ## 🛠️ Project Structure
 - `config/`: Pre-optimized configurations with smart fallbacks.
 - `templates/`: Professional prompts for Writing, Coding, and Research.
+  - **Core 10 Library**: Includes **Crypto Sentinel**, **PMBOK Master**, and **Viral Shorts Gen**.
 - `community_templates/`: 👈 **Submit yours here!** This is where our readers share their best agent configurations.
 
 ## 🤝 Join the Movement

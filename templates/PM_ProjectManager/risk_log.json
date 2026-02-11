@@ -1,0 +1,18 @@
+{
+  "risks": [
+    {
+      "id": "R001",
+      "description": "API Rate Limiting",
+      "probability": "Medium",
+      "impact": "High",
+      "mitigation": "Implement exponential backoff"
+    },
+    {
+      "id": "R002",
+      "description": "Stakeholder Scope Creep",
+      "probability": "High",
+      "impact": "Medium",
+      "mitigation": "Strict change request process"
+    }
+  ]
+}

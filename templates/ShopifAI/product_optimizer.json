@@ -1,0 +1,8 @@
+{
+  "seo_keywords": ["organic", "eco-friendly", "sustainable", "premium"],
+  "description_rules": {
+    "include_bullet_points": true,
+    "max_words": 150,
+    "tone": "luxurious"
+  }
+}

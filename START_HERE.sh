@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Initializing One-Click Blueprint Environment..."
+# Install any global dependencies if needed
+# npm install -g ...
+# pip install ...
+echo "Setup Complete. Check TUTORIALS/ for guide on how to use templates."
