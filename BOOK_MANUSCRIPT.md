@@ -2486,7 +2486,8 @@ This plan is built on the principle of **Incremental Agency**. We don't want you
 - **Day 25:** **Cloud Migration.** Use ClawdBody to move your agent to the cloud. It should now run 24/7, even when your laptop is closed.
 - **Day 26:** **The Safety Audit.** Setup your "Protocol Zero" kill-switch and test it (Chapter 9).
 - **Day 27:** **The Community Contribution.** Share a prompt or a blueprint you've refined on our GitHub repository.
-- **Day 28:** **The Strategic Pivot.** Ask your "Manager Agent" to analyze your last 30 days of tasks and suggest a 6-month roadmap for your career.
+- **Day 28:** **The Template Council.** Run one of your existing templates through the full Council review process. Experience the quality difference.
+- **Day 29:** **The Strategic Pivot.** Ask your "Manager Agent" to analyze your last 30 days of tasks and suggest a 6-month roadmap for your career.
 - **Day 29:** **The Future Scan.** Ask the agent to predict the next three major AI-driven changes in your specific industry.
 - **Day 30:** **The Ascension Ceremony.** Identify one app or habit that your agent now handles perfectly. Delete that app or stop that habit forever.
 
@@ -2542,6 +2543,182 @@ Those things require **You**.
 Go forth. Build your digital empire. Orchestrate your genius agents. Reclaim your time. But most importantly: **Go live the life you just won back.**
 
 The future is online. Your agents are ready. And now, so are you.
+
+# Chapter 16: The Template Council - Quality at Scale
+
+## 1. The Problem with "Good Enough"
+
+By now, you have deployed dozens of agents. You have orchestras running your business, sentinels watching your investments, and creative engines producing content. Your Digital Workforce is humming.
+
+But here's a question: **How do you know your templates are actually good?**
+
+Not "good enough to run." Not "good enough to get a result." I mean truly *excellent*. The kind of templates that don't just work—they work *beautifully*. Templates that understand edge cases, handle errors gracefully, and produce output that makes you think, "Damn, that's better than I could have done myself."
+
+Most people stop at "It runs." They accept the first working version. But in the Agentic Era, "working" is table stakes. The winners will be those who obsess over quality. Those who treat their templates not as disposable scripts, but as *intellectual property*—assets that appreciate over time.
+
+This chapter is about the **Template Council**: a system for institutionalizing excellence.
+
+## 2. What is the Template Council?
+
+The Template Council is a quality assurance system for your agent templates. Think of it like a peer review process at a scientific journal, or a code review at a top-tier software company. Before any template enters your "Production Library," it passes through multiple expert reviewers.
+
+But here's the twist: **The reviewers are also agents.**
+
+You create specialized "Advisor Agents"—each with a specific lens:
+
+- **The Template Architect:** Checks structure, flow, and consistency. "Does this template follow our established patterns? Is it extensible?"
+- **The Domain Expert:** Validates technical accuracy. "Are the crypto terms used correctly? Is the project management methodology sound?"
+- **The UX/Prompt Engineer:** Optimizes for clarity. "Will a beginner understand this? Are the instructions unambiguous?"
+- **The Practicality Auditor:** Tests real-world usability. "Can I copy-paste this and get results immediately? What could go wrong?"
+- **The Version Control Lead:** Manages documentation and changelog. "Is this properly versioned? Are breaking changes documented?"
+
+Each advisor scores the template on six criteria:
+1. **Clarity** (1-10): Is it crystal clear?
+2. **Actionability** (1-10): Can I use it immediately?
+3. **Completeness** (1-10): Does it cover edge cases?
+4. **Currentness** (1-10): Is the information up-to-date?
+5. **Safety** (1-10): Are there warnings and limitations?
+6. **Tools Integration** (1-10): Does it leverage OpenClaw effectively?
+
+A template must score **≥7.0 overall** with **Safety ≥7** to be approved.
+
+## 3. The Five-Phase Review Workflow
+
+When you finish a new template (or improve an existing one), it goes through this process:
+
+### Phase 1: Self-Assessment (10 minutes)
+You, the author, review your own work. You run through a checklist: Does it have a metadata block? Are there examples? Did I test it? You catch the obvious issues before wasting your advisors' time.
+
+### Phase 2: Peer Review (20 minutes)
+One advisor—the one most aligned with the domain—does a deep dive. They test every step, verify every link, and identify gaps. They write a detailed report with specific line numbers and suggested fixes.
+
+### Phase 3: Cross-Domain Check (15 minutes)
+A different advisor reviews it—someone from outside the domain. Their job is to catch "expert blindness." Can a beginner understand this? Is the jargon explained? This prevents templates that only make sense to insiders.
+
+### Phase 4: Practical Test (20 minutes)
+The Practicality Auditor actually uses the template with real inputs. Does it work? How long does it take? What breaks? This is where you discover that your "simple" recipe template actually requires 47 steps and three API keys.
+
+### Phase 5: Final Approval & Versioning (10 minutes)
+The Version Control Lead stamps it, updates the changelog, and moves it to the "Production" folder. The template now carries a **Council Approval Badge**:
+
+```
+✅ COUNCIL APPROVED - v2.0.0 - 2026-02-12
+Scores: Clarity 9/10, Actionability 9/10, Completeness 10/10, 
+        Currentness 10/10, Safety 9/10, Tools 8/10
+Overall: 9.2/10
+```
+
+Total time: **75 minutes** per template. Sounds like a lot? Consider this: A high-quality template might be used 1,000 times. Spending an hour perfecting it saves 1,000 hours of frustration later.
+
+## 4. The Master Template: Your Quality Foundation
+
+To make reviews efficient, every template must follow a standard structure—the **Master Template**. This ensures reviewers know exactly where to look for what.
+
+Every template must include:
+
+1. **Metadata Block:** Name, version, last reviewed date, complexity level, estimated time
+2. **One-Line Pitch:** What does this do in one sentence?
+3. **Description:** Who is this for? What problem does it solve?
+4. **Prerequisites:** What do I need to know? What tools? What data?
+5. **Step-by-Step Instructions:** Numbered steps with expected results
+6. **Example Usage:** A concrete scenario with input and output
+7. **Common Pitfalls:** What typically goes wrong and how to avoid it
+8. **Safety Notes:** Limitations, warnings, privacy concerns
+9. **Pro Tips:** Advanced variations
+10. **Troubleshooting:** When things break, how do I fix them?
+11. **Changelog:** What changed in each version?
+
+This structure might seem rigid. It is. Rigidity is the price of quality. When every template looks the same, you spend zero time figuring out "where is the example?" or "what's the safety warning?" The consistency becomes invisible—you just *flow*.
+
+## 5. Real-World Example: The Crypto Sentinel Upgrade
+
+Let me show you how this works in practice. We had a template called "Crypto Sentinel"—a market monitoring agent. Version 1.0 was... fine. It had the basics: price checks, news alerts, a simple risk assessment.
+
+But when we ran it through the Council, the issues emerged:
+
+**The Domain Expert flagged:**
+- "The 5% volatility threshold is too noisy for crypto. You'll get alerts every hour."
+- "You're not mentioning RSI or moving averages—basic technical indicators."
+- "The data sources aren't specified. Where does the 7-day volume come from?"
+
+**The Practicality Auditor found:**
+- "If CoinGecko is down, the template fails silently. No error handling."
+- "The 'risk assessment' is just 'Bullish/Bearish/Neutral' with no confidence score."
+
+**The Safety Reviewer noted:**
+- "There's no warning about FOMO or emotional trading. This could cost people money."
+- "The disclaimer is buried at the bottom. It needs to be prominent."
+
+**Version 2.0** emerged from this process:
+- Dynamic thresholds based on asset volatility
+- Explicit data source guidance (CoinGecko, CoinMarketCap, alternatives)
+- Error handling table for stale data, timeouts, API failures
+- Prominent behavioral risk warnings
+- Confidence scoring for assessments
+
+**Council Score:** 9.3/10
+
+The difference? Version 1.0 was a proof of concept. Version 2.0 is a production tool you could trust with real money.
+
+## 6. When to Council-Review Your Templates
+
+You don't need to run every tiny tweak through the Council. That would be bureaucratic madness. Use judgment:
+
+**Full Council Review required for:**
+- New templates (obviously)
+- Major version bumps (1.x → 2.x)
+- Templates handling sensitive data (finance, health, legal)
+- Templates shared with the community
+
+**Fast-track (1 reviewer, 10 minutes) for:**
+- Patch fixes (typos, broken links)
+- Minor additions (new examples)
+- Date updates
+
+**No review needed for:**
+- Your personal experimental templates
+- Drafts in your `/scratch` folder
+- Templates you're actively iterating on (review when stable)
+
+## 7. Building Your Own Council
+
+You don't need five separate agents on day one. Start simple:
+
+**Week 1:** Just you. Be your own reviewer. Use the evaluation framework honestly.
+
+**Week 2:** Add one "General Advisor" agent. It reviews everything through a generalist lens.
+
+**Week 3:** Split into two specialists: "Technical Reviewer" and "UX Reviewer."
+
+**Week 4:** Add "Safety Auditor" for templates handling money or sensitive data.
+
+**Month 2:** Full five-member council.
+
+Remember: The goal isn't paperwork. The goal is *peace of mind*. When you see that Council Approval Badge, you know you can trust the template. You know it won't waste your time, embarrass you in front of clients, or make expensive mistakes.
+
+## 8. The Compound Effect of Quality
+
+Here's the beautiful thing about the Council system: **Quality compounds.**
+
+When your templates are excellent, you use them more. When you use them more, you trust agents more. When you trust agents more, you delegate bigger tasks. When you delegate bigger tasks, you free up more time for strategy and creativity.
+
+The Council isn't overhead. It's an **accelerant**.
+
+Think about it: A sloppy template might work 70% of the time. The other 30%, you're debugging, fixing, apologizing to stakeholders. An excellent template works 95% of the time. That 25% difference, compounded over hundreds of uses, is the difference between "managing AI" and "orchestrating genius."
+
+## 9. From Consumer to Producer
+
+The Template Council system does something profound: It transforms you from a *consumer* of templates into a *producer* of templates.
+
+When you started this book, you downloaded templates and used them. Now, you're creating templates that others could use. You're contributing to the ecosystem.
+
+And because your templates go through the Council, they're not just "contributions." They're *gifts*. High-quality, battle-tested, safety-reviewed gifts that elevate the entire community.
+
+This is how the Agentic Era scales. Not through one giant company, but through millions of AI Managers, each perfecting their templates, each sharing their blueprints, each raising the bar for everyone else.
+
+**Welcome to the Council.** Your templates are about to get a lot better.
+
+---
 
 ## 5. The 10-Year Vision: Where is the Agentic Era Taking Us?
 
